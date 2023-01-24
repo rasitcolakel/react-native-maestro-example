@@ -1,0 +1,11 @@
+appId: com.example.app
+---
+- openLink: exp://127.0.0.1:19000
+- tapOn:
+    id: "username"
+- inputText: "maestro"
+- tapOn:
+    id: "password"
+- inputText: "12345678"
+- tapOn:
+    id: "login"
