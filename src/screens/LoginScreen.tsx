@@ -2,12 +2,15 @@ import { View } from "react-native";
 import React from "react";
 import Input from "../components/Input";
 import Button from "../components/Button";
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
+import { RootStackParamList } from "../../App";
 
-type Props = {};
+type Props = NativeStackScreenProps<RootStackParamList, "Login">;
 
 const LoginScreen = (props: Props) => {
   const login = () => {
-    console.log("Login");
+    console.log("Login clicked");
+    props.navigation.push("Home");
   };
 
   return (
@@ -19,7 +22,7 @@ const LoginScreen = (props: Props) => {
           placeholder="Password"
           secureTextEntry={true}
         />
-        <Button testID="login" title="Login" />
+        <Button testID="login" title="Login" onPress={login} />
       </View>
     </View>
   );
