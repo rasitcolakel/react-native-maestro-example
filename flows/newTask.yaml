@@ -1,0 +1,8 @@
+appId: com.example.app
+---
+- openLink: exp://127.0.0.1:19000
+- tapOn:
+    id: "newTask"
+- inputRandomText
+- tapOn:
+    id: "addTask"
