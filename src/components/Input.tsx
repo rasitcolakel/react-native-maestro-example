@@ -3,6 +3,7 @@ import React from "react";
 
 type Props = TextInputProps;
 
+// Creates a new input component that has a border and rounded corners
 const Input = (props: Props) => {
   return (
     <TextInput
