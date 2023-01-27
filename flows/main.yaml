@@ -1,0 +1,17 @@
+appId: com.example.app
+---
+- openLink: exp://127.0.0.1:19000
+- runFlow:
+    when:
+      visible:
+        text: "Login"
+        index: 1
+    file: login.yaml
+- repeat:
+    times: 3
+    commands:
+      - runFlow: newTask.yaml
+- repeat:
+    times: 3
+    commands:
+      - runFlow: deleteTask.yaml

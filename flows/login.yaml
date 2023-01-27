@@ -9,3 +9,4 @@ appId: com.example.app
 - inputText: "12345678"
 - tapOn:
     id: "login"
+    index: 1
