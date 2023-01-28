@@ -1,3 +1,6 @@
+# This flow logs in to the app, creates three tasks, and then deletes them.
+# It is used for testing the app.
+
 appId: com.example.app
 ---
 - openLink: exp://127.0.0.1:19000
@@ -11,6 +14,7 @@ appId: com.example.app
     times: 3
     commands:
       - runFlow: newTask.yaml
+- hideKeyboard
 - repeat:
     times: 3
     commands:

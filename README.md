@@ -187,3 +187,9 @@ To repeat a flow, you need to use the following syntax:
 
 The above example will run the delete task flow three times.
 
+### Example Videos:
+
+This video presents the main flow which logs in to the app, creates three tasks, and then deletes them.
+
+
+Second video presents the main flow which skips the login flow and then creates three tasks, and then deletes them.
