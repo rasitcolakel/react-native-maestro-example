@@ -151,3 +151,39 @@ Running on emulator-5554
  ║    ✅  Input text 12345678           
  ║    ✅  Tap on id: login              
 ```
+
+<h2> Run a nested flow </h2>
+
+To run a nested flow, you need to use the following syntax:
+
+```yaml
+- runFlow: newTask.yaml # <-- Run commands from "Login.yaml"
+```
+
+<h2> Run a Nested Flow with condition</h2>
+
+To run a nested flow with condition, you need to use the following syntax:
+
+```yaml
+- runFlow:
+    when:
+      visible:
+        text: "Login"
+        index: 1
+    file: login.yaml
+```
+The above example will run the login flow if the text "Login" is visible on the screen.
+
+<h2> Repeat a flow </h2>
+
+To repeat a flow, you need to use the following syntax:
+
+```yaml
+- repeat:
+    times: 3
+    commands:
+      - runFlow: deleteTask.yaml
+```
+
+The above example will run the delete task flow three times.
+
