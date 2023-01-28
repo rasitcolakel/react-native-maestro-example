@@ -1,9 +1,10 @@
-<h1> About </h1>
+# About
 
 This project is a simple example of how to use the [Maestro](https://maestro.mobile.dev/) to test your mobile application.
 
-<h1> Getting Started </h1>
+# Getting Started
 
+There are some prerequisites that you need to install before running the Maestro.
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/)
@@ -18,7 +19,7 @@ To install the Maestro, run the following command:
 ```bash
 curl -Ls "https://get.maestro.mobile.dev" | bash
 ```
-<h3><b>Running the tests</b></h3>
+### **Running the tests**
 
 Before running the tests, you need to install the dependencies for iOS:
 
@@ -33,7 +34,7 @@ To run the tests, run the following command:
 maestro test your-flow.yaml
 ```
 
-<h2> Creating a flow </h2>
+## Creating a flow 
 
 To create a flow, you need to create a YAML file with the following structure:
 
@@ -45,7 +46,7 @@ appId: com.example.app
 
 The first line is the application identifier, and the second line is the URL to open the application becuse the app is running on the Expo.
 
-<h2> Tapping on an element </h2>
+## Tapping on an element
 
 There are two ways to tap on an element:
 
@@ -69,7 +70,7 @@ There are two ways to tap on an element:
 - For more information about TapOn, you can check the [Maestro documentation](https://maestro.mobile.dev/reference/tap-on-view).
 
 
-<h2> Input Text </h2>
+## Input Text
 
 To input text, you need to use the following syntax:
 
@@ -77,7 +78,7 @@ To input text, you need to use the following syntax:
 - inputText: "maestro"
 ```
 
-<h2> Login Flow </h2>
+## Login Flow
 
 To run the login flow, run the following command:
 
@@ -120,7 +121,7 @@ appId: com.example.app
     id: "login"
 ```
 
-<h2> Running the Login Test on iOS </h2>
+## Running the Login Test on iOS
 
 ```bash
 Running on iPhone 11 - iOS 16.0 - 2DBFC5E7-FAE6-4B2A-BD9B-D9D7EDF22C7B      
@@ -136,7 +137,7 @@ Running on iPhone 11 - iOS 16.0 - 2DBFC5E7-FAE6-4B2A-BD9B-D9D7EDF22C7B
  ║    ✅  Tap on id: login                                                  
 ```
 
-<h2> Running the Login Test on Android </h2>
+## Running the Login Test on Android 
 
 ```bash
 Running on emulator-5554                
@@ -152,7 +153,7 @@ Running on emulator-5554
  ║    ✅  Tap on id: login              
 ```
 
-<h2> Run a nested flow </h2>
+## Run a nested flow
 
 To run a nested flow, you need to use the following syntax:
 
@@ -160,7 +161,7 @@ To run a nested flow, you need to use the following syntax:
 - runFlow: newTask.yaml # <-- Run commands from "Login.yaml"
 ```
 
-<h2> Run a Nested Flow with condition</h2>
+## Run a Nested Flow with condition
 
 To run a nested flow with condition, you need to use the following syntax:
 
@@ -174,7 +175,7 @@ To run a nested flow with condition, you need to use the following syntax:
 ```
 The above example will run the login flow if the text "Login" is visible on the screen.
 
-<h2> Repeat a flow </h2>
+## Repeat a flow
 
 To repeat a flow, you need to use the following syntax:
 
