@@ -7,6 +7,6 @@ appId: com.example.app
 - tapOn:
     id: "password"
 - inputText: "12345678"
+- hideKeyboard
 - tapOn:
-    id: "login"
-    index: 1
+    id: "loginButton"

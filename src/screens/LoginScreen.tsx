@@ -22,7 +22,7 @@ const LoginScreen = (props: Props) => {
           placeholder="Password"
           secureTextEntry={true}
         />
-        <Button testID="login" title="Login" onPress={login} />
+        <Button testID="loginButton" title="Login" onPress={login} />
       </View>
     </View>
   );
