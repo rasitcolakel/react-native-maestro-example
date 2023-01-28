@@ -200,3 +200,9 @@ https://user-images.githubusercontent.com/53280610/215272186-b53cdbec-eb30-4c80-
 
 
 - Second video presents the main flow which skips the login flow and then creates three tasks, and then deletes them.
+### Android
+https://user-images.githubusercontent.com/53280610/215272260-eb2856aa-44b7-4249-87c1-35c3a5614102.mov
+
+### iOS
+https://user-images.githubusercontent.com/53280610/215272266-8cf2eb79-bcfb-45a6-8ff5-6f23076b0250.mov
+
