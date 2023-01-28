@@ -207,3 +207,15 @@ https://user-images.githubusercontent.com/53280610/215272260-eb2856aa-44b7-4249-
 ### iOS
 https://user-images.githubusercontent.com/53280610/215272266-8cf2eb79-bcfb-45a6-8ff5-6f23076b0250.mov
 
+
+## Conclusion
+
+In this article, we learned how to create a flow to test a React Native application using Maestro. We also learned how to run the tests on iOS and Android. We also learned how to run a nested flow and how to repeat a flow.
+
+## Thanks
+
+Thanks for reading this article. If you have any questions, please feel free to reach out to me on Twitter [@rasitcolakel](https://twitter.com/rasitcolakel) or on [GitHub](https://github.com/rasitcolakel).
+
+## Resources
+
+- [Maestro Documentation](https://maestro.mobile.dev/)
